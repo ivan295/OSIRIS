@@ -1,7 +1,7 @@
 @extends('adminlte::page')
 
 @section('title', 'Tabla')
-@section('plugins.Sweetalert2',true)
+
 
 
 
@@ -16,7 +16,7 @@
     <script>
         Swal.fire(
   'buen trabajo!',
-  'You clicked the button!',
+  'You clicked the button! ;)',
   'exito'
 )
     </script>

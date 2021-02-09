@@ -247,15 +247,22 @@ return [
             'url'  => 'home',
             'icon' => 'fas fa-fw fa-home',
         ],
+        [
+            'text' => 'Crear Usuario',
+            'url'  => 'User/index',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+
+
 
 
         [
-            'text'    => 'Categoria',
+            'text'    => 'Categorias',
             'icon'    => 'fas fa-fw fa-exclamation-triangle',
             'submenu' => [
                 [
                     'text' => 'Crear Categoria',                        
-                    'url'  => 'tabla',
+                    'url'  => 'Categories/index',
                 ],
                         ],
         ],
@@ -407,11 +414,11 @@ return [
             ],
         ],
         'Sweetalert2' => [
-            'active' => false,
+            'active' => true,
             'files' => [
                 [
                     'type' => 'js',
-                    'asset' => false,
+                    'asset' => true,
                     'location' => '//cdn.jsdelivr.net/npm/sweetalert2@8',
                 ],
             ],
